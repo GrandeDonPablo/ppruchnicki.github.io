@@ -3395,6 +3395,18 @@ input, select, textarea {
 			top: 0;
 		}
 
+		#header h4 {
+			position: absolute;
+			right: 1em;
+			top: 0;
+			margin-left: 15px;
+		}
+
+			#header h4 a{
+				margin-top: 10px;
+				margin-left: 15px;
+			}
+
 		#header nav {
 			position: absolute;
 			right: 1em;
@@ -3895,14 +3907,20 @@ input, select, textarea {
 					color: #ffffff;
 					display: block;
 					font-weight: 300;
+					margin-left: 20px;
 					height: 44px;
 					line-height: 44px;
 					text-align: center;
 				}
 
+
 					#titleBar .title a {
 						color: inherit;
 						border: 0;
+						height: 44px;
+						margin-left: 15px;
+						text-align: right;
+						display: inline-block;
 					}
 
 				#titleBar .toggle {
