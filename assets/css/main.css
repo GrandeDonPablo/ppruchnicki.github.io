@@ -3405,6 +3405,8 @@ input, select, textarea {
 			#header h4 a{
 				margin-top: 10px;
 				margin-left: 15px;
+				height: 2em;
+				line-height: 2em;
 			}
 
 		#header nav {
@@ -3917,10 +3919,12 @@ input, select, textarea {
 					#titleBar .title a {
 						color: inherit;
 						border: 0;
-						height: 44px;
 						margin-left: 15px;
 						text-align: right;
 						display: inline-block;
+						height: 2em;
+						line-height: 2em;
+						padding: 0 1.25em;
 					}
 
 				#titleBar .toggle {
